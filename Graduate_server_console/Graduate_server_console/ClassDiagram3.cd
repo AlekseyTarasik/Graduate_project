@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Graduate_server_console.Singleton">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>ClientObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.ClientObject">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAQkAGAgAgAAAAAgAAAAAAAAAAAAwAASBAI=</HashCode>
+      <FileName>ClientObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.Program">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAACAAAAAACAAAAACAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Admin" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEGEjAAAAQAAIQkgABIAAAAAACAAACBAQAYpAAEAAA=</HashCode>
+      <FileName>MyGraduateServer\entity\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Document_files">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJDEABAAAAAAFAAAAQAAgQAAAEAAgACAAAAAAAAQAA=</HashCode>
+      <FileName>MyGraduateServer\entity\Document_files.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Expert" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyGraduateServer\entity\Expert.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Expert_manager" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyGraduateServer\entity\Expert_manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Inspections" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyGraduateServer\entity\Inspections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Insurance_contract" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyGraduateServer\entity\Insurance_contract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Message_data">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABAASAAAAAAEQAACBAAAAAEAAABAAAAAAAABAQ=</HashCode>
+      <FileName>MyGraduateServer\entity\Message_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Graduate_server_console.MyGraduateServer.entity.Users">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMHEjAAAAQAAIQmogBIAQAAAACAAAAAAQAYpAAUAAA=</HashCode>
+      <FileName>MyGraduateServer\entity\Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

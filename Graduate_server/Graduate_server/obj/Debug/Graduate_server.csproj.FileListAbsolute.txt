@@ -1,0 +1,14 @@
+D:\Graduation project\Graduate_server\Graduate_server\bin\Debug\Graduate_server.exe.config
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server.csprojResolveAssemblyReference.cache
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\MainWindow.g.cs
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\App.g.cs
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server_MarkupCompile.cache
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server_MarkupCompile.lref
+D:\Graduation project\Graduate_server\Graduate_server\bin\Debug\Graduate_server.exe
+D:\Graduation project\Graduate_server\Graduate_server\bin\Debug\Graduate_server.pdb
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\MainWindow.baml
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server.g.resources
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server.Properties.Resources.resources
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server.csproj.GenerateResource.Cache
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server.exe
+D:\Graduation project\Graduate_server\Graduate_server\obj\Debug\Graduate_server.pdb

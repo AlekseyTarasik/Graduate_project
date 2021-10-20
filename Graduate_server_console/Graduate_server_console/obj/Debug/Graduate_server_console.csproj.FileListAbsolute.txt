@@ -1,0 +1,6 @@
+D:\Graduation project\Graduate_server_console\Graduate_server_console\bin\Debug\Graduate_server_console.exe.config
+D:\Graduation project\Graduate_server_console\Graduate_server_console\bin\Debug\Graduate_server_console.exe
+D:\Graduation project\Graduate_server_console\Graduate_server_console\bin\Debug\Graduate_server_console.pdb
+D:\Graduation project\Graduate_server_console\Graduate_server_console\obj\Debug\Graduate_server_console.csprojResolveAssemblyReference.cache
+D:\Graduation project\Graduate_server_console\Graduate_server_console\obj\Debug\Graduate_server_console.exe
+D:\Graduation project\Graduate_server_console\Graduate_server_console\obj\Debug\Graduate_server_console.pdb

@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA285108-97D8-4B30-8C06-971B2C31F321}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Graduate_client</RootNamespace>
+    <AssemblyName>Graduate_client</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Change_inspection_promo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Change_inspection_promo.Designer.cs">
+      <DependentUpon>Change_inspection_promo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Change_inspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Change_inspection.Designer.cs">
+      <DependentUpon>Change_inspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Change_users_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Change_users_data.Designer.cs">
+      <DependentUpon>Change_users_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Inspections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Inspections.Designer.cs">
+      <DependentUpon>Inspections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Personal_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Personal_data.Designer.cs">
+      <DependentUpon>Personal_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Registration_user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\Registration_user.Designer.cs">
+      <DependentUpon>Registration_user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\User_data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\User_data.Designer.cs">
+      <DependentUpon>User_data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Change_user.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="Expert\All_inspections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert\All_inspections.Designer.cs">
+      <DependentUpon>All_inspections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert\Change_inspection_expert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert\Change_inspection_expert.Designer.cs">
+      <DependentUpon>Change_inspection_expert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert\Current_inspections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert\Current_inspections.Designer.cs">
+      <DependentUpon>Current_inspections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert\New_message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert\New_message.Designer.cs">
+      <DependentUpon>New_message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert\Personal_data_expert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert\Personal_data_expert.Designer.cs">
+      <DependentUpon>Personal_data_expert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\All_inspections_manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\All_inspections_manager.Designer.cs">
+      <DependentUpon>All_inspections_manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\Change_inspection_manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\Change_inspection_manager.Designer.cs">
+      <DependentUpon>Change_inspection_manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\Create_new_inspection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\Create_new_inspection.Designer.cs">
+      <DependentUpon>Create_new_inspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\Current_inspection_manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\Current_inspection_manager.Designer.cs">
+      <DependentUpon>Current_inspection_manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\New_message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\New_message.Designer.cs">
+      <DependentUpon>New_message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\Personal_data_manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\Personal_data_manager.Designer.cs">
+      <DependentUpon>Personal_data_manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\Preview_employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\Preview_employee.Designer.cs">
+      <DependentUpon>Preview_employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expert_manager\Preview_insurance_contract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expert_manager\Preview_insurance_contract.Designer.cs">
+      <DependentUpon>Preview_insurance_contract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_1lvl\MenuExpert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_1lvl\MenuExpert.Designer.cs">
+      <DependentUpon>MenuExpert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_1lvl\MenuExpertManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_1lvl\MenuExpertManager.Designer.cs">
+      <DependentUpon>MenuExpertManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graduate_tarasikDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Graduate_tarasikDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Inspection_data.cs" />
+    <Compile Include="Main_authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_authorization.Designer.cs">
+      <DependentUpon>Main_authorization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_1lvl\MenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_1lvl\MenuAdmin.Designer.cs">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message_data.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users.cs" />
+    <EmbeddedResource Include="Admin\Change_inspection_promo.resx">
+      <DependentUpon>Change_inspection_promo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Change_inspection.resx">
+      <DependentUpon>Change_inspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Change_users_data.resx">
+      <DependentUpon>Change_users_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Inspections.resx">
+      <DependentUpon>Inspections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Personal_data.resx">
+      <DependentUpon>Personal_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\Registration_user.resx">
+      <DependentUpon>Registration_user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\User_data.resx">
+      <DependentUpon>User_data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert\All_inspections.resx">
+      <DependentUpon>All_inspections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert\Change_inspection_expert.resx">
+      <DependentUpon>Change_inspection_expert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert\Current_inspections.resx">
+      <DependentUpon>Current_inspections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert\New_message.resx">
+      <DependentUpon>New_message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert\Personal_data_expert.resx">
+      <DependentUpon>Personal_data_expert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert_manager\All_inspections_manager.resx">
+      <DependentUpon>All_inspections_manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert_manager\Change_inspection_manager.resx">
+      <DependentUpon>Change_inspection_manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert_manager\Create_new_inspection.resx">
+      <DependentUpon>Create_new_inspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert_manager\Current_inspection_manager.resx">
+      <DependentUpon>Current_inspection_manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert_manager\Personal_data_manager.resx">
+      <DependentUpon>Personal_data_manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert_manager\Preview_employee.resx">
+      <DependentUpon>Preview_employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expert_manager\Preview_insurance_contract.resx">
+      <DependentUpon>Preview_insurance_contract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_1lvl\MenuAdmin.resx">
+      <DependentUpon>MenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_1lvl\MenuExpert.resx">
+      <DependentUpon>MenuExpert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_1lvl\MenuExpertManager.resx">
+      <DependentUpon>MenuExpertManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_authorization.resx">
+      <DependentUpon>Main_authorization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Graduate_tarasikDataSet.xsc">
+      <DependentUpon>Graduate_tarasikDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Graduate_tarasikDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Graduate_tarasikDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Graduate_tarasikDataSet.xss">
+      <DependentUpon>Graduate_tarasikDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resource\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
